@@ -1,6 +1,7 @@
+lines = ARGF.read.split("\n").join(" ")
 
 
-input = gets.strip
+
 
 def acronym(input)
  input.split(" ").collect do |word|
@@ -10,4 +11,4 @@ def acronym(input)
   end.compact.join
 end
 
-acronym(input)
+acronym(lines)
