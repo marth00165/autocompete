@@ -27,11 +27,11 @@ def sherlock (inputArr)
       values[jawnindex] = jawn
 
        if hash.values.uniq.length == 1
-        true
+         puts  "true"
       elsif values.uniq.length == 1
-        true
+          puts "true"
        else
-        false
+         puts "false"
        end
     end
 end
